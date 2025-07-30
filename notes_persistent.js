@@ -188,7 +188,7 @@ class notesView{
             const ctrlOrCmd = event.ctrlKey;
 
             if (ctrlOrCmd && event.key.toLowerCase() === "z") {
-                event.preventDefault(); // evita interferencias con comportamientos por defecto
+                event.preventDefault(); 
                 handler();
             }
         });
