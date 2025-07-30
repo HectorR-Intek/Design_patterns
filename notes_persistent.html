@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="notes.css">
+</head>
+<body>
+    <h2>Notes</h2>
+    
+    <form id="note-form">
+        <input type="text" id="title" placeholder="Title" required />
+        <textarea id="content" placeholder="Content" required></textarea>
+        <button type="submit">Save</button>
+    </form>
+
+    <input type="text" id="search-input" placeholder="Search notes...">
+    <button id="undo-button">Undo</button>
+
+
+    <div id="notes-container">
+        
+    </div>
+
+    <script src="notes_persistent.js"></script>
+</body>
+</html>

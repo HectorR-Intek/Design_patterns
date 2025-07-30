@@ -1,0 +1,22 @@
+.note {
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+  
+form {
+    display: flex;
+    flex-direction: column; /*Makes input of form be in column*/
+    margin-bottom: 20px;
+}
+
+form input {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+form button {
+    padding: 5px;
+}
